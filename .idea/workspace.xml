@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Others.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Bitwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/TernaryCond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2kmmRqv7Riw3WwNw1ul67LaXkQf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,10 +53,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Line.executor": "Run",
+    "Application.Others.executor": "Run",
+    "Application.Point2D.executor": "Run",
+    "Application.Point3D.executor": "Run",
+    "Application.TernaryCond.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hatzp/Desktop/Programming/OCP17/Java_Misc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -40,10 +90,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723897122046</updated>
+      <workItem from="1723897123122" duration="6286000" />
+      <workItem from="1725263902755" duration="3635000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1723897406721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723897406721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
