@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Others.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A1_Basics/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Bitwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Operands3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/Primitives3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A2_TypesOperands/TernaryCond.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 1 &amp; 2 Examples">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations/Declaration1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations/MethOverload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations2/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_Declarations2/StaticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +48,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
+    "Application.Name.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.Point2D.executor": "Run",
     "Application.Point3D.executor": "Run",
+    "Application.StaticTest.executor": "Run",
     "Application.TernaryCond.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hatzp/Desktop/Programming/OCP17/Java_Misc",
+    "last_opened_file_path": "C:/Users/hatzp/Desktop/Programming/OCP17/ProductManagement/ProdManager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1723897122046</updated>
       <workItem from="1723897123122" duration="6286000" />
-      <workItem from="1725263902755" duration="3635000" />
+      <workItem from="1725263902755" duration="4994000" />
+      <workItem from="1725366973437" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723897406721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter 1 &amp; 2 Examples">
+      <option name="closed" value="true" />
+      <created>1725268227174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725268227174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Chapter 1 &amp; 2 Examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 1 &amp; 2 Examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
