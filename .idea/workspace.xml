@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 3 Progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_3_Arrays/AnonArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_3_Arrays/Array2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_3_Arrays/Initialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_3_Arrays/PassingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A3_3_Arrays/RefPassing.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 3 Complete">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_1_ControlFlow_SwitchStat/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_1_ControlFlow_SwitchStat/EnumSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_1_ControlFlow_SwitchStat/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_1_ControlFlow_SwitchStat/SeasonsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_1_ControlFlow_SwitchStat/SwitchingOnAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_2_ControlFlow_SwitchExpr/LabeledSkip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_2_ControlFlow_SwitchExpr/SeasonsIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_2_ControlFlow_SwitchExpr/SeasonsIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_2_ControlFlow_SwitchExpr/SeasonsV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A4_2_ControlFlow_SwitchExpr/SeasonsVI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +51,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EnumSwitch.executor": "Run",
     "Application.Initialize.executor": "Run",
+    "Application.LabeledSkip.executor": "Run",
     "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
     "Application.Name.executor": "Run",
@@ -55,7 +62,12 @@
     "Application.Point2D.executor": "Run",
     "Application.Point3D.executor": "Run",
     "Application.RefPassing.executor": "Run",
+    "Application.SeasonsII.executor": "Run",
+    "Application.SeasonsIII.executor": "Run",
+    "Application.SeasonsIV.executor": "Run",
+    "Application.SeasonsVI.executor": "Run",
     "Application.StaticTest.executor": "Run",
+    "Application.SwitchingOnAString.executor": "Run",
     "Application.TernaryCond.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,7 +104,8 @@
       <updated>1723897122046</updated>
       <workItem from="1723897123122" duration="6286000" />
       <workItem from="1725263902755" duration="4994000" />
-      <workItem from="1725366973437" duration="6556000" />
+      <workItem from="1725366973437" duration="8788000" />
+      <workItem from="1725513089314" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -118,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725382890354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Chapter 3 Complete">
+      <option name="closed" value="true" />
+      <created>1725475266831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725475266831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +172,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Chapter 1 &amp; 2 Examples" />
     <MESSAGE value="Chapter 3 Progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 Progress" />
+    <MESSAGE value="Chapter 3 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 Complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
