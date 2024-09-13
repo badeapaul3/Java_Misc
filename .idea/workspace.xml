@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 4 Complete">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_1_OOP_Inheritance/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_2_OOP_Inheritance2/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_3_OOP_Inheritance3/Client3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_4_OOP_Ctor/ChainingConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_5_OOP_AbstractClasses/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_6_OOP_FinalModifier/Warehouse.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 5 Progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_10_OOP_EnumRecsSealed/MachineState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_6_OOP_FinalModifier/LocalVarFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/IShopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/JavaParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/MultipleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/Shopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_7_OOP_Interfaces/StackUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_8_OOP_RefConversions/Identification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_8_OOP_RefConversions/ReferenceConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_8_OOP_RefConversions/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/A5_9_OOP_Polymorphism/PolymorphRefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/A5_6_OOP_FinalModifier/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/A5_6_OOP_FinalModifier/Warehouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,27 +59,36 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ChainingConstructors.executor": "Run",
+    "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
     "Application.Factory.executor": "Run",
+    "Application.Identification.executor": "Run",
     "Application.Initialize.executor": "Run",
+    "Application.JavaParty.executor": "Run",
     "Application.LabeledSkip.executor": "Run",
     "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
+    "Application.MultipleInheritance.executor": "Run",
     "Application.Name.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.PassingArrays.executor": "Run",
     "Application.Point2D.executor": "Run",
     "Application.Point3D.executor": "Run",
+    "Application.PolymorphRefs.executor": "Run",
     "Application.RefPassing.executor": "Run",
+    "Application.ReferenceConversion.executor": "Run",
     "Application.SeasonsII.executor": "Run",
     "Application.SeasonsIII.executor": "Run",
     "Application.SeasonsIV.executor": "Run",
     "Application.SeasonsVI.executor": "Run",
+    "Application.Shopper.executor": "Run",
+    "Application.StackUser.executor": "Run",
     "Application.StaticTest.executor": "Run",
     "Application.SwitchingOnAString.executor": "Run",
     "Application.TernaryCond.executor": "Run",
+    "Application.Testing.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.Warehouse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -130,7 +149,7 @@
       <workItem from="1725263902755" duration="4994000" />
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
-      <workItem from="1725687015661" duration="7315000" />
+      <workItem from="1725687015661" duration="19917000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -172,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725516483988</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Chapter 5 Progress">
+      <option name="closed" value="true" />
+      <created>1725730685690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725730685690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +234,8 @@
     <MESSAGE value="Chapter 3 Progress" />
     <MESSAGE value="Chapter 3 Complete" />
     <MESSAGE value="Chapter 4 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 4 Complete" />
+    <MESSAGE value="Chapter 5 Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 5 Progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

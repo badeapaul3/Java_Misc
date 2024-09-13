@@ -77,5 +77,17 @@ public class Warehouse {
         out.println(Arrays.toString(args));  // Print array.
 //  args = null;                         // (25) Not OK. Final parameter.
 //  args.length = 10;                    // (26) Not OK. Final instance field.
+
+
+        final int k;              // Declaration: blank final local variable
+        k = 10;                   // (1) Assignment
+        System.out.println(k);    // (2) Access: k is definitely assigned.
+
+        boolean status = true;    // Non-constant variable.
+        final int j;              // Declaration: blank final local variable
+        if (status) {             // (3) Value of conditional expression not evaluated
+            j = 5;                  // (4) Conditional assignment
+        }
+        //System.out.println(j);    // (5) Access: j is not definitely assigned! Can be solve in the if with exhaustive conditional cases (an else)
     }
 }
