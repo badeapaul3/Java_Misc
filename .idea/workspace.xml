@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 5 Done">
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 6 Done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +51,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Average2.executor": "Run",
+    "Application.Average3.executor": "Run",
+    "Application.Average4.executor": "Run",
+    "Application.Average5.executor": "Run",
+    "Application.Average6.executor": "Run",
+    "Application.Average7.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
@@ -98,6 +110,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="devguideocp.Part1_C1to5" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -118,7 +135,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="3445000" />
+      <workItem from="1726583676831" duration="8405000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -184,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726586994437</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Chapter 6 Done">
+      <option name="closed" value="true" />
+      <created>1726661893274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726661893274</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +246,8 @@
     <MESSAGE value="Chapter 4 Complete" />
     <MESSAGE value="Chapter 5 Progress" />
     <MESSAGE value="Chapter 5 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 5 Done" />
+    <MESSAGE value="Chapter 6 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6 Done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
