@@ -1,4 +1,4 @@
-//package devguideocp.A3_3_Arrays;
+//package devguideocp.Part1_C1to5.A3_3_Arrays;
 //
 ///**
 // * @author hatzp
