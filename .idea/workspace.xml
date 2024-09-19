@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 6 Done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_1_Exceptions/Average6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average7.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 7 Progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/ExceptionsInChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/MorePreciseRethrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,18 +49,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Average10.executor": "Run",
     "Application.Average2.executor": "Run",
     "Application.Average3.executor": "Run",
     "Application.Average4.executor": "Run",
     "Application.Average5.executor": "Run",
     "Application.Average6.executor": "Run",
     "Application.Average7.executor": "Run",
+    "Application.Average8.executor": "Run",
+    "Application.Average9.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
     "Application.DataUser.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
+    "Application.ExceptionsInChain.executor": "Run",
     "Application.Factory.executor": "Run",
     "Application.Identification.executor": "Run",
     "Application.Initialize.executor": "Run",
@@ -71,6 +73,7 @@
     "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
     "Application.MachineClient.executor": "Run",
+    "Application.MorePreciseRethrow.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
     "Application.Name.executor": "Run",
     "Application.Others.executor": "Run",
@@ -115,6 +118,27 @@
       <recent name="devguideocp.Part1_C1to5" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Average9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw.Average9" />
+      <module name="Java_Misc" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Average9" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -135,7 +159,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="8405000" />
+      <workItem from="1726583676831" duration="13776000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -209,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726661893274</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Chapter 7 Progress">
+      <option name="closed" value="true" />
+      <created>1726679217990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679217990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +279,18 @@
     <MESSAGE value="Chapter 5 Progress" />
     <MESSAGE value="Chapter 5 Done" />
     <MESSAGE value="Chapter 6 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6 Done" />
+    <MESSAGE value="Chapter 7 Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7 Progress" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw.IntegerDivisionByZero" package="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
