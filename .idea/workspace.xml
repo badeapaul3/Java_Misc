@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 7 Progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/Average9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/ExceptionsInChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_2_Exceptions_Throw/MorePreciseRethrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/Gizmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/GizmoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/GizmoTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/NaiveResourceUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/TryWithARM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/TryWithoutARM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A7_3_Try_Resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +69,8 @@
     "Application.EnumSwitch.executor": "Run",
     "Application.ExceptionsInChain.executor": "Run",
     "Application.Factory.executor": "Run",
+    "Application.GizmoTest.executor": "Run",
+    "Application.GizmoTest2.executor": "Run",
     "Application.Identification.executor": "Run",
     "Application.Initialize.executor": "Run",
     "Application.JavaParty.executor": "Run",
@@ -93,6 +98,7 @@
     "Application.SwitchingOnAString.executor": "Run",
     "Application.TernaryCond.executor": "Run",
     "Application.Testing.executor": "Run",
+    "Application.TryWithoutARM.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.Warehouse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -159,7 +165,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="13776000" />
+      <workItem from="1726583676831" duration="16969000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -241,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726679217990</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chapter 7 Progress">
+      <option name="closed" value="true" />
+      <created>1726770792883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726770792883</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
