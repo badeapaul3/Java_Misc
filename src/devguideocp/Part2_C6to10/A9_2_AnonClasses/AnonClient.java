@@ -27,7 +27,7 @@ class TLCWithAnonClasses {      // (2) Top level Class
             // Static fields: Accessing local declarations in the enclosing block:
             //static int sff1 = fp;   // (10) Final param from enclosing method
             //static int sff2 = flv;  // (11) Effect. final variable from enclosing method
-//    static int sf1 = nflv1; // (12) Not effect. final from enclosing method
+//    static int sf1 = nflv1; // (12) Not eff final from enclosing method
 
             // Instance fields: Accessing local declarations in the enclosing block:
             int f1 = fp;       // (13) Final param from enclosing method

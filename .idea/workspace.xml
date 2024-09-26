@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 8 progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/Extending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/HiddenAndInheritedAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/ListClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/ListPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/ListPool2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/LocalClassClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/LocalClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/LocalClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/LocalClient3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/LocalTypesClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/MyBiLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/OuterInstances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_1_NestedTypes/TLC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClassClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClient.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 9 Done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionInStaticInitBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionsInInitializers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionsInInstBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ForwardRefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ForwardRefsSimulated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/InstanceInitBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/InstanceInitializersII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/MatrixData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/NonStaticForwardReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ExceptionsInInstBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +73,20 @@
     "Application.Client3.executor": "Run",
     "Application.DataUser.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
+    "Application.ExceptionInStaticInitBlocks.executor": "Run",
     "Application.ExceptionsInChain.executor": "Run",
+    "Application.ExceptionsInInitializers.executor": "Run",
+    "Application.ExceptionsInInstBlocks.executor": "Run",
     "Application.Extending.executor": "Run",
     "Application.Factory.executor": "Run",
+    "Application.ForwardRefs.executor": "Run",
     "Application.GizmoTest.executor": "Run",
     "Application.GizmoTest2.executor": "Run",
     "Application.HiddenAndInheritedAccess.executor": "Run",
     "Application.Identification.executor": "Run",
     "Application.Initialize.executor": "Run",
+    "Application.InstanceInitBlock.executor": "Run",
+    "Application.InstanceInitializersII.executor": "Run",
     "Application.IntegerRepresentation.executor": "Run",
     "Application.JavaParty.executor": "Run",
     "Application.LabeledSkip.executor": "Run",
@@ -104,6 +104,7 @@
     "Application.MultipleInheritance.executor": "Run",
     "Application.MyBiLinkedList.executor": "Run",
     "Application.Name.executor": "Run",
+    "Application.NonStaticForwardReferences.executor": "Run",
     "Application.ObjectMethods.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.OuterInstances.executor": "Run",
@@ -240,7 +241,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="35018000" />
+      <workItem from="1726583676831" duration="38357000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727004329805</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Chapter 9 Done">
+      <option name="closed" value="true" />
+      <created>1727286677669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727286677669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +396,8 @@
     <MESSAGE value="Chapter 7 Progress" />
     <MESSAGE value="Chapter 7 Complete" />
     <MESSAGE value="Chapter 8 progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8 progress" />
+    <MESSAGE value="Chapter 9 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
