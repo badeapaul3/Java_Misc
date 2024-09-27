@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 9 Done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionInStaticInitBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionsInInitializers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ExceptionsInInstBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ForwardRefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/ForwardRefsSimulated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/InstanceInitBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/InstanceInitializersII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/MatrixData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_1_ObjLifetime/NonStaticForwardReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ExceptionsInInstBlocks.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 10 progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ObjectConstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ObjectInitialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A9_2_AnonClasses/AnonClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +96,8 @@
     "Application.MyBiLinkedList.executor": "Run",
     "Application.Name.executor": "Run",
     "Application.NonStaticForwardReferences.executor": "Run",
+    "Application.ObjectConstruction.executor": "Run",
+    "Application.ObjectInitialization.executor": "Run",
     "Application.ObjectMethods.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.OuterInstances.executor": "Run",
@@ -241,7 +234,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="38357000" />
+      <workItem from="1726583676831" duration="39743000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -355,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727286677669</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Chapter 10 progress">
+      <option name="closed" value="true" />
+      <created>1727378100598</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727378100598</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +398,8 @@
     <MESSAGE value="Chapter 7 Complete" />
     <MESSAGE value="Chapter 8 progress" />
     <MESSAGE value="Chapter 9 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 Done" />
+    <MESSAGE value="Chapter 10 progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 10 progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
