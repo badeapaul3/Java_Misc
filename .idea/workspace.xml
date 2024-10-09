@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 10 progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ObjectConstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C6to10/A10_2_ObjLifetime2/ObjectInitialization.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 10 done">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/BiNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/LegacyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/LymphNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/MonoNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/Preliminaries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_1_Generics/WildcardAccessRestrictions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_2_Generics2/IStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_2_Generics2/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_2_Generics2/NodeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_2_Generics2/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/RecBiNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/RecNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/SuperErasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/TypeErasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A11_3_Generics3/WildParamType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A12_1_ArrayList/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A12_1_ArrayList/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +36,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +76,7 @@
     "Application.Average7.executor": "Run",
     "Application.Average8.executor": "Run",
     "Application.Average9.executor": "Run",
+    "Application.BiNode.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
@@ -81,6 +100,7 @@
     "Application.IntegerRepresentation.executor": "Run",
     "Application.JavaParty.executor": "Run",
     "Application.LabeledSkip.executor": "Run",
+    "Application.LegacyNode.executor": "Run",
     "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
     "Application.ListClient.executor": "Run",
@@ -118,8 +138,11 @@
     "Application.StringConstruction.executor": "Run",
     "Application.SwitchingOnAString.executor": "Run",
     "Application.TernaryCond.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
     "Application.Testing.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
+    "Application.TypeErasure.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.Warehouse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -234,7 +257,7 @@
       <workItem from="1725366973437" duration="8788000" />
       <workItem from="1725513089314" duration="6488000" />
       <workItem from="1725687015661" duration="20840000" />
-      <workItem from="1726583676831" duration="39743000" />
+      <workItem from="1726583676831" duration="62598000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -356,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727378100598</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Chapter 10 done">
+      <option name="closed" value="true" />
+      <created>1727419516816</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727419516816</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +430,8 @@
     <MESSAGE value="Chapter 8 progress" />
     <MESSAGE value="Chapter 9 Done" />
     <MESSAGE value="Chapter 10 progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 10 progress" />
+    <MESSAGE value="Chapter 10 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 10 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
