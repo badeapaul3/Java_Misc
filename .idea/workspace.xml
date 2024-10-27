@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 12 done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/ContractZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/Features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/Funky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/NewStrPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/StrPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_1_FuncInterf/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_2_Lambdas/FunWithPalindromes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_2_Lambdas/LocalsOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_2_Lambdas/MembersOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_2_Lambdas/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/BiPredicateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConsumerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/PredicateTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/SupplierClient.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 13 progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConstructorReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/CurryingFn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/FunctionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/FunctionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/LambdaContexts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/TwoArityFn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConsumerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConsumerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,9 @@
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
+    "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
+    "Application.CurryingFn.executor": "Run",
     "Application.DataUser.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
     "Application.ExceptionInStaticInitBlocks.executor": "Run",
@@ -88,6 +83,8 @@
     "Application.Factory.executor": "Run",
     "Application.ForwardRefs.executor": "Run",
     "Application.FunWithPalindromes.executor": "Run",
+    "Application.FunctionClient.executor": "Run",
+    "Application.FunctionTests.executor": "Run",
     "Application.GizmoTest.executor": "Run",
     "Application.GizmoTest2.executor": "Run",
     "Application.HiddenAndInheritedAccess.executor": "Run",
@@ -98,6 +95,7 @@
     "Application.IntegerRepresentation.executor": "Run",
     "Application.JavaParty.executor": "Run",
     "Application.LabeledSkip.executor": "Run",
+    "Application.LambdaContexts.executor": "Run",
     "Application.LegacyNode.executor": "Run",
     "Application.Light.executor": "Run",
     "Application.Line.executor": "Run",
@@ -111,6 +109,7 @@
     "Application.LocalsOnly.executor": "Run",
     "Application.MachineClient.executor": "Run",
     "Application.MembersOnly.executor": "Run",
+    "Application.MethodReferences.executor": "Run",
     "Application.MorePreciseRethrow.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
     "Application.MyBiLinkedList.executor": "Run",
@@ -145,6 +144,7 @@
     "Application.Test2.executor": "Run",
     "Application.Testing.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
+    "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.Warehouse.executor": "Run",
@@ -262,7 +262,7 @@
       <workItem from="1725687015661" duration="20840000" />
       <workItem from="1726583676831" duration="85343000" />
       <workItem from="1729708368451" duration="4469000" />
-      <workItem from="1729790983321" duration="1136000" />
+      <workItem from="1729790983321" duration="18609000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -400,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728496753142</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Chapter 13 progress">
+      <option name="closed" value="true" />
+      <created>1729792517053</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729792517053</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +453,8 @@
     <MESSAGE value="Chapter 10 progress" />
     <MESSAGE value="Chapter 10 done" />
     <MESSAGE value="Chapter 12 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 12 done" />
+    <MESSAGE value="Chapter 13 progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

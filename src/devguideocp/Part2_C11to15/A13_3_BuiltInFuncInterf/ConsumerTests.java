@@ -2,7 +2,7 @@ package devguideocp.Part2_C11to15.A13_3_BuiltInFuncInterf;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
+import java.util.function.*;
 
 /**
  * @author hatzp
@@ -47,6 +47,24 @@ public class ConsumerTests {
         resizeSB.andThen(reverseSB)
                 .andThen(printSB).accept(new StringBuilder("Banana")); // StringBuilder: anaB
 
+
+        IntConsumer sqrt = i -> System.out.printf("%.2f%n", Math.sqrt(i));
+        IntConsumer sqr = i -> System.out.printf("%d%n", i * i);
+        sqrt.andThen(sqr).accept(9);    // 3.87
+        // 225
+
+
+
+        BiConsumer<String, Double> formatPrinter
+                = (format, obj) -> System.out.printf(format, obj);
+        formatPrinter.accept("Math.PI:|%10.3f|%n", Math.PI); // Math.PI:|     3.142|
+
+
+        ObjIntConsumer<StringBuilder> resizeSB2 = (sb, len) -> sb.setLength(len);
+        StringBuilder sb2 = new StringBuilder("bananarama");
+        resizeSB2.accept(sb2, 6);      // The required length passed as a parameter.
+        System.out.println("StringBuilder resized: " + sb2);
+// StringBuilder resized: banana
 
 
     }
