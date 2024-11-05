@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 13 progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConstructorReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/CurryingFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/FunctionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/FunctionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/LambdaContexts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/MethodReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/TwoArityFn.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 13 done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/ReliableVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/SimpleVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestReliableVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestSimpleVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestUsableVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestUsableVNO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/UsableVNO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/ComparatorUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/TestVersionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/UsingVersionNumberComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/VersionNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConsumerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A13_3_BuiltInFuncInterf/ConsumerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +73,7 @@
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
+    "Application.ComparatorUsage.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
     "Application.CurryingFn.executor": "Run",
@@ -142,10 +146,16 @@
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
+    "Application.TestReliableVNO.executor": "Run",
+    "Application.TestSimpleVNO.executor": "Run",
+    "Application.TestUsableVNO.executor": "Run",
+    "Application.TestUsableVNO2.executor": "Run",
+    "Application.TestVersionNumber.executor": "Run",
     "Application.Testing.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
     "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
+    "Application.UsingVersionNumberComparator.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.Warehouse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -262,7 +272,8 @@
       <workItem from="1725687015661" duration="20840000" />
       <workItem from="1726583676831" duration="85343000" />
       <workItem from="1729708368451" duration="4469000" />
-      <workItem from="1729790983321" duration="18609000" />
+      <workItem from="1729790983321" duration="19275000" />
+      <workItem from="1730401464875" duration="13600000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -408,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729792517053</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Chapter 13 done">
+      <option name="closed" value="true" />
+      <created>1730046203358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730046203358</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +473,8 @@
     <MESSAGE value="Chapter 10 done" />
     <MESSAGE value="Chapter 12 done" />
     <MESSAGE value="Chapter 13 progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 progress" />
+    <MESSAGE value="Chapter 13 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
