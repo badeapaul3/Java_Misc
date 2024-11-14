@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 13 done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/ReliableVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/SimpleVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestReliableVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestSimpleVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestUsableVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/TestUsableVNO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_1_ObjComparison/UsableVNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/ComparatorUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/TestVersionNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/UsingVersionNumberComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A14_2_ObjComparisonComp/VersionNumber.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 14 done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/CharacterSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/CollectionToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/DequeOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/IterationHashSetAndLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/IterationOverCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/SetNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/SetTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/TakeAGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/TaskExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,14 +72,17 @@
     "Application.BiNode.executor": "Run",
     "Application.BiPredicateClient.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
+    "Application.CharacterSets.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
+    "Application.CollectionToArray.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
     "Application.CurryingFn.executor": "Run",
     "Application.DataUser.executor": "Run",
+    "Application.DequeOperations.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
     "Application.ExceptionInStaticInitBlocks.executor": "Run",
     "Application.ExceptionsInChain.executor": "Run",
@@ -97,6 +102,8 @@
     "Application.InstanceInitBlock.executor": "Run",
     "Application.InstanceInitializersII.executor": "Run",
     "Application.IntegerRepresentation.executor": "Run",
+    "Application.IterationHashSetAndLinkedHashSet.executor": "Run",
+    "Application.IterationOverCollections.executor": "Run",
     "Application.JavaParty.executor": "Run",
     "Application.LabeledSkip.executor": "Run",
     "Application.LambdaContexts.executor": "Run",
@@ -136,12 +143,16 @@
     "Application.SeasonsIII.executor": "Run",
     "Application.SeasonsIV.executor": "Run",
     "Application.SeasonsVI.executor": "Run",
+    "Application.SetNavigation.executor": "Run",
+    "Application.SetTests.executor": "Run",
     "Application.Shopper.executor": "Run",
     "Application.StackUser.executor": "Run",
     "Application.StaticTest.executor": "Run",
     "Application.StringConstruction.executor": "Run",
     "Application.SupplierClient.executor": "Run",
     "Application.SwitchingOnAString.executor": "Run",
+    "Application.TakeAGuess.executor": "Run",
+    "Application.TaskExecutor.executor": "Run",
     "Application.TernaryCond.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
@@ -181,75 +192,6 @@
       <recent name="devguideocp.Part1_C1to5" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Average9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw.Average9" />
-      <module name="Java_Misc" />
-      <option name="PROGRAM_PARAMETERS" value="100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C6to10.A7_2_Exceptions_Throw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListPool2$MyLinkedList$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.ListPool2$MyLinkedList$Node" />
-      <module name="Java_Misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalClassClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.LocalClassClient" />
-      <module name="Java_Misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalClient3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.LocalClient3" />
-      <module name="Java_Misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C6to10.A9_1_NestedTypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ListPool2$MyLinkedList$Node" />
-      <item itemvalue="Application.LocalClassClient" />
-      <item itemvalue="Application.LocalClient3" />
-      <item itemvalue="Application.Average9" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ListPool2$MyLinkedList$Node" />
-        <item itemvalue="Application.LocalClassClient" />
-        <item itemvalue="Application.LocalClient3" />
-        <item itemvalue="Application.Average9" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -273,7 +215,8 @@
       <workItem from="1726583676831" duration="85343000" />
       <workItem from="1729708368451" duration="4469000" />
       <workItem from="1729790983321" duration="19275000" />
-      <workItem from="1730401464875" duration="13600000" />
+      <workItem from="1730401464875" duration="15049000" />
+      <workItem from="1731163081282" duration="17536000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -427,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730046203358</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Chapter 14 done">
+      <option name="closed" value="true" />
+      <created>1730791224508</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1730791224508</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +425,8 @@
     <MESSAGE value="Chapter 12 done" />
     <MESSAGE value="Chapter 13 progress" />
     <MESSAGE value="Chapter 13 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 done" />
+    <MESSAGE value="Chapter 14 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 14 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
