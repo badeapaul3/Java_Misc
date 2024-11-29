@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 14 done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/CharacterSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/CollectionToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/DequeOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/IterationHashSetAndLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/IterationOverCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/SetNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/SetTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/TakeAGuess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/TaskExecutor.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 15 progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_1_Collections/TaskExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_2_Maps/AdvMapTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_2_Maps/Histogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_2_Maps/HistogramStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_2_Maps/MapTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A15_2_Maps/TheCollectionsClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdvMapTests.executor": "Run",
     "Application.AnonClassClient.executor": "Run",
     "Application.AnonClient.executor": "Run",
     "Application.Average10.executor": "Run",
@@ -119,6 +116,7 @@
     "Application.LocalTypesClient.executor": "Run",
     "Application.LocalsOnly.executor": "Run",
     "Application.MachineClient.executor": "Run",
+    "Application.MapTests.executor": "Run",
     "Application.MembersOnly.executor": "Run",
     "Application.MethodReferences.executor": "Run",
     "Application.MorePreciseRethrow.executor": "Run",
@@ -153,6 +151,7 @@
     "Application.SwitchingOnAString.executor": "Run",
     "Application.TakeAGuess.executor": "Run",
     "Application.TaskExecutor.executor": "Run",
+    "Application.TaskExecutor2.executor": "Run",
     "Application.TernaryCond.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
@@ -163,6 +162,7 @@
     "Application.TestUsableVNO2.executor": "Run",
     "Application.TestVersionNumber.executor": "Run",
     "Application.Testing.executor": "Run",
+    "Application.TheCollectionsClass.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
     "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
@@ -183,7 +183,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -216,7 +216,7 @@
       <workItem from="1729708368451" duration="4469000" />
       <workItem from="1729790983321" duration="19275000" />
       <workItem from="1730401464875" duration="15049000" />
-      <workItem from="1731163081282" duration="17536000" />
+      <workItem from="1731163081282" duration="36784000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -378,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730791224508</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Chapter 15 progress">
+      <option name="closed" value="true" />
+      <created>1731612953583</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731612953583</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +434,8 @@
     <MESSAGE value="Chapter 13 progress" />
     <MESSAGE value="Chapter 13 done" />
     <MESSAGE value="Chapter 14 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 14 done" />
+    <MESSAGE value="Chapter 15 progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15 progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
