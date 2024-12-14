@@ -4,12 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 15 done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/CDAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 16 Progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/OrderOfOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamPipeLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/Filtering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/FlatMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/IntermedOpsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/StreamTypeConversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_3_Optional/NumericOptionalUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_3_Optional/OptionalUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorMutableReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/FunctionalReductions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/IdentityMatrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/TestTerminal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,143 +64,159 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdvMapTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnonClassClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnonClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BiNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BiPredicateClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChainingConstructors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterSets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionToArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructorReferences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsumerTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurryingFn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataUser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DequeOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumSwitch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionInStaticInitBlocks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionsInChain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionsInInitializers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionsInInstBlocks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Extending.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForwardRefs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunWithPalindromes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GizmoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GizmoTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Identification.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Initialize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstanceInitBlock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstanceInitializersII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerRepresentation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterationHashSetAndLinkedHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterationOverCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaParty.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LabeledSkip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaContexts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LegacyNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Light.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Line.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListPool2$MyLinkedList$Node.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalClassClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalClient1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalClient2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalClient3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalTypesClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalsOnly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MachineClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MembersOnly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodReferences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MorePreciseRethrow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleInheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyBiLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Name.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NonStaticForwardReferences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectInitialization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Others.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OuterInstances.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PassingArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Point2D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Point3D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolymorphRefs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PredicateTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadingCharsFromString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefPassing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReferenceConversion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonsII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonsIII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonsIV.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonsVI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetNavigation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetTests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Shopper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackUser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SupplierClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchingOnAString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TakeAGuess.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExecutor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExecutor2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TernaryCond.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestReliableVNO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSimpleVNO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestUsableVNO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestUsableVNO2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVersionNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TheCollectionsClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithoutARM.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoArityFn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TypeErasure.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsingVersionNumberComparator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Utility.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Warehouse.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hatzp/Desktop/Programming/OCP17/Java_Misc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdvMapTests.executor": "Run",
+    "Application.AnonClassClient.executor": "Run",
+    "Application.AnonClient.executor": "Run",
+    "Application.Average10.executor": "Run",
+    "Application.Average2.executor": "Run",
+    "Application.Average3.executor": "Run",
+    "Application.Average4.executor": "Run",
+    "Application.Average5.executor": "Run",
+    "Application.Average6.executor": "Run",
+    "Application.Average7.executor": "Run",
+    "Application.Average8.executor": "Run",
+    "Application.Average9.executor": "Run",
+    "Application.BiNode.executor": "Run",
+    "Application.BiPredicateClient.executor": "Run",
+    "Application.CDAdmin.executor": "Run",
+    "Application.ChainingConstructors.executor": "Run",
+    "Application.CharacterSets.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Client2.executor": "Run",
+    "Application.Client3.executor": "Run",
+    "Application.CollectionToArray.executor": "Run",
+    "Application.CollectorMutableReduction.executor": "Run",
+    "Application.CollectorsClass.executor": "Run",
+    "Application.ComparatorUsage.executor": "Run",
+    "Application.ConstructorReferences.executor": "Run",
+    "Application.ConsumerTests.executor": "Run",
+    "Application.CurryingFn.executor": "Run",
+    "Application.DataUser.executor": "Run",
+    "Application.DequeOperations.executor": "Run",
+    "Application.EnumSwitch.executor": "Run",
+    "Application.ExceptionInStaticInitBlocks.executor": "Run",
+    "Application.ExceptionsInChain.executor": "Run",
+    "Application.ExceptionsInInitializers.executor": "Run",
+    "Application.ExceptionsInInstBlocks.executor": "Run",
+    "Application.Extending.executor": "Run",
+    "Application.Factory.executor": "Run",
+    "Application.Filtering.executor": "Run",
+    "Application.FlatMapTest.executor": "Run",
+    "Application.ForwardRefs.executor": "Run",
+    "Application.FunWithPalindromes.executor": "Run",
+    "Application.FunctionClient.executor": "Run",
+    "Application.FunctionTests.executor": "Run",
+    "Application.FunctionalReductions.executor": "Run",
+    "Application.GizmoTest.executor": "Run",
+    "Application.GizmoTest2.executor": "Run",
+    "Application.HiddenAndInheritedAccess.executor": "Run",
+    "Application.Identification.executor": "Run",
+    "Application.IdentityMatrixTest.executor": "Run",
+    "Application.Initialize.executor": "Run",
+    "Application.InstanceInitBlock.executor": "Run",
+    "Application.InstanceInitializersII.executor": "Run",
+    "Application.IntegerRepresentation.executor": "Run",
+    "Application.IntermedOpsTest.executor": "Run",
+    "Application.IterationHashSetAndLinkedHashSet.executor": "Run",
+    "Application.IterationOverCollections.executor": "Run",
+    "Application.JavaParty.executor": "Run",
+    "Application.LabeledSkip.executor": "Run",
+    "Application.LambdaContexts.executor": "Run",
+    "Application.LegacyNode.executor": "Run",
+    "Application.Light.executor": "Run",
+    "Application.Line.executor": "Run",
+    "Application.ListClient.executor": "Run",
+    "Application.ListPool2$MyLinkedList$Node.executor": "Run",
+    "Application.LocalClassClient.executor": "Run",
+    "Application.LocalClient1.executor": "Run",
+    "Application.LocalClient2.executor": "Run",
+    "Application.LocalClient3.executor": "Run",
+    "Application.LocalTypesClient.executor": "Run",
+    "Application.LocalsOnly.executor": "Run",
+    "Application.MachineClient.executor": "Run",
+    "Application.MapTests.executor": "Run",
+    "Application.MembersOnly.executor": "Run",
+    "Application.MethodReferences.executor": "Run",
+    "Application.MorePreciseRethrow.executor": "Run",
+    "Application.MultipleInheritance.executor": "Run",
+    "Application.MyBiLinkedList.executor": "Run",
+    "Application.Name.executor": "Run",
+    "Application.NonStaticForwardReferences.executor": "Run",
+    "Application.ObjectConstruction.executor": "Run",
+    "Application.ObjectInitialization.executor": "Run",
+    "Application.ObjectMethods.executor": "Run",
+    "Application.OptionalUsage.executor": "Run",
+    "Application.OrderOfOperations.executor": "Run",
+    "Application.OrderOfOperationsWithPeek.executor": "Run",
+    "Application.Others.executor": "Run",
+    "Application.OuterInstances.executor": "Run",
+    "Application.PassingArrays.executor": "Run",
+    "Application.Point2D.executor": "Run",
+    "Application.Point3D.executor": "Run",
+    "Application.PolymorphRefs.executor": "Run",
+    "Application.PredicateTests.executor": "Run",
+    "Application.ReadingCharsFromString.executor": "Run",
+    "Application.RefPassing.executor": "Run",
+    "Application.ReferenceConversion.executor": "Run",
+    "Application.SeasonsII.executor": "Run",
+    "Application.SeasonsIII.executor": "Run",
+    "Application.SeasonsIV.executor": "Run",
+    "Application.SeasonsVI.executor": "Run",
+    "Application.SetNavigation.executor": "Run",
+    "Application.SetTests.executor": "Run",
+    "Application.Shopper.executor": "Run",
+    "Application.Sorting.executor": "Run",
+    "Application.StackUser.executor": "Run",
+    "Application.StaticTest.executor": "Run",
+    "Application.StreamOps.executor": "Run",
+    "Application.StreamPipeLine.executor": "Run",
+    "Application.StreamTest.executor": "Run",
+    "Application.StreamTest2.executor": "Run",
+    "Application.StreamTypeConversions.executor": "Run",
+    "Application.StringConstruction.executor": "Run",
+    "Application.SupplierClient.executor": "Run",
+    "Application.SwitchingOnAString.executor": "Run",
+    "Application.TakeAGuess.executor": "Run",
+    "Application.TaskExecutor.executor": "Run",
+    "Application.TaskExecutor2.executor": "Run",
+    "Application.TernaryCond.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.TestReliableVNO.executor": "Run",
+    "Application.TestSimpleVNO.executor": "Run",
+    "Application.TestTerminal.executor": "Run",
+    "Application.TestUsableVNO.executor": "Run",
+    "Application.TestUsableVNO2.executor": "Run",
+    "Application.TestVersionNumber.executor": "Run",
+    "Application.Testing.executor": "Run",
+    "Application.TheCollectionsClass.executor": "Run",
+    "Application.TryWithoutARM.executor": "Run",
+    "Application.TwoArityFn.executor": "Run",
+    "Application.TypeErasure.executor": "Run",
+    "Application.UsingVersionNumberComparator.executor": "Run",
+    "Application.Utility.executor": "Run",
+    "Application.Warehouse.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hatzp/Desktop/Programming/OCP17/Java_Misc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "proofread",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="devguideocp.Part1_C1to5" />
@@ -218,7 +248,8 @@
       <workItem from="1730401464875" duration="15049000" />
       <workItem from="1731163081282" duration="36784000" />
       <workItem from="1732882548093" duration="3529000" />
-      <workItem from="1733040461502" duration="608000" />
+      <workItem from="1733040461502" duration="15664000" />
+      <workItem from="1733595764405" duration="48417000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -396,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732882864459</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Chapter 16 Progress">
+      <option name="closed" value="true" />
+      <created>1733042696096</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733042696096</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +485,8 @@
     <MESSAGE value="Chapter 14 done" />
     <MESSAGE value="Chapter 15 progress" />
     <MESSAGE value="Chapter 15 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15 done" />
+    <MESSAGE value="Chapter 16 Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 16 Progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
