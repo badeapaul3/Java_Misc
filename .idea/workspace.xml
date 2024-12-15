@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 16 Progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/OrderOfOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamPipeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/Filtering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/FlatMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/IntermedOpsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_2_StreamsIntermediate/StreamTypeConversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_3_Optional/NumericOptionalUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_3_Optional/OptionalUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorMutableReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/FunctionalReductions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/IdentityMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/TestTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorsFlatMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/RadioPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_5_ParallelStreams/StreamBenchmarks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_1_Streams/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A16_4_TerminalOperations/CollectorsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +75,7 @@
     "Application.CollectionToArray.executor": "Run",
     "Application.CollectorMutableReduction.executor": "Run",
     "Application.CollectorsClass.executor": "Run",
+    "Application.CollectorsFlatMapping.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
@@ -170,6 +157,7 @@
     "Application.Sorting.executor": "Run",
     "Application.StackUser.executor": "Run",
     "Application.StaticTest.executor": "Run",
+    "Application.StreamBenchmarks.executor": "Run",
     "Application.StreamOps.executor": "Run",
     "Application.StreamPipeLine.executor": "Run",
     "Application.StreamTest.executor": "Run",
@@ -249,7 +237,7 @@
       <workItem from="1731163081282" duration="36784000" />
       <workItem from="1732882548093" duration="3529000" />
       <workItem from="1733040461502" duration="15664000" />
-      <workItem from="1733595764405" duration="48417000" />
+      <workItem from="1733595764405" duration="59755000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -435,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733042696096</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Chapter 16 Progress">
+      <option name="closed" value="true" />
+      <created>1734170962198</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734170962198</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
