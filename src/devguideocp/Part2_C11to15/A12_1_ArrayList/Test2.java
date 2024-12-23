@@ -33,7 +33,7 @@ public class Test2 {
         printListWithIndex(strList);
 
         out.println("\n(4) Remove the element at index 0:");
-        out.println(STR."Element removed: \{strList.remove(0)}");
+        //out.println(STR."Element removed: \{strList.remove(0)}");
         printListWithIndex(strList);
 
         out.println("\n(5) Remove the first occurrence of \"Java\":");
