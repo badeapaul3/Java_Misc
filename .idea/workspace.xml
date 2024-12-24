@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 16 Done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/ActYourAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/PeriodBasedLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 17 Progress">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/ConvertToLegacyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/DSTAdjustment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/DurationBasedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/FlightTimeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/TimeZonesAndDaylightSavings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A12_1_ArrayList/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C11to15/A12_1_ArrayList/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Periods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Periods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Durations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "badeapaul3"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/badeapaul3/Java_Misc",
+    "accountId": "f74753fd-9740-48af-953b-03d17136afa1"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="SKIP_INSPECTION" />
   </component>
@@ -82,8 +95,10 @@
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
     "Application.CurryingFn.executor": "Run",
+    "Application.DSTAdjustment.executor": "Run",
     "Application.DataUser.executor": "Run",
     "Application.DequeOperations.executor": "Run",
+    "Application.Durations.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
     "Application.ExceptionInStaticInitBlocks.executor": "Run",
     "Application.ExceptionsInChain.executor": "Run",
@@ -93,6 +108,7 @@
     "Application.Factory.executor": "Run",
     "Application.Filtering.executor": "Run",
     "Application.FlatMapTest.executor": "Run",
+    "Application.FlightTimeInfo.executor": "Run",
     "Application.ForwardRefs.executor": "Run",
     "Application.FunWithPalindromes.executor": "Run",
     "Application.FunctionClient.executor": "Run",
@@ -188,6 +204,7 @@
     "Application.TestVersionNumber.executor": "Run",
     "Application.Testing.executor": "Run",
     "Application.TheCollectionsClass.executor": "Run",
+    "Application.TimeZonesAndDaylightSavings.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
     "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
@@ -443,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734259264069</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Chapter 17 Progress">
+      <option name="closed" value="true" />
+      <created>1734979802057</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734979802057</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +520,8 @@
     <MESSAGE value="Chapter 15 done" />
     <MESSAGE value="Chapter 16 Progress" />
     <MESSAGE value="Chapter 16 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 16 Done" />
+    <MESSAGE value="Chapter 17 Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 17 Progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
