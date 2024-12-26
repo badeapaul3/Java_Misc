@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 17 Done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources_no_NO.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/LocalesEverywhere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/LocatingBundles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_fr_CA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/UsingResourceBundles.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 18 Half">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CompactNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CustomDecimalFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/FormatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/Rounding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +90,7 @@
     "Application.CollectorMutableReduction.executor": "Run",
     "Application.CollectorsClass.executor": "Run",
     "Application.CollectorsFlatMapping.executor": "Run",
+    "Application.CompactNumberTest.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
@@ -114,6 +109,7 @@
     "Application.Filtering.executor": "Run",
     "Application.FlatMapTest.executor": "Run",
     "Application.FlightTimeInfo.executor": "Run",
+    "Application.FormatTest.executor": "Run",
     "Application.ForwardRefs.executor": "Run",
     "Application.FunWithPalindromes.executor": "Run",
     "Application.FunctionClient.executor": "Run",
@@ -165,6 +161,7 @@
     "Application.OrderOfOperationsWithPeek.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.OuterInstances.executor": "Run",
+    "Application.ParsingTest.executor": "Run",
     "Application.PassingArrays.executor": "Run",
     "Application.PeriodBasedLoop.executor": "Run",
     "Application.Periods.executor": "Run",
@@ -175,6 +172,7 @@
     "Application.ReadingCharsFromString.executor": "Run",
     "Application.RefPassing.executor": "Run",
     "Application.ReferenceConversion.executor": "Run",
+    "Application.Rounding.executor": "Run",
     "Application.SeasonsII.executor": "Run",
     "Application.SeasonsIII.executor": "Run",
     "Application.SeasonsIV.executor": "Run",
@@ -484,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735037997109</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Chapter 18 Half">
+      <option name="closed" value="true" />
+      <created>1735211880862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1735211880862</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +544,8 @@
     <MESSAGE value="Chapter 16 Done" />
     <MESSAGE value="Chapter 17 Progress" />
     <MESSAGE value="Chapter 17 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 17 Done" />
+    <MESSAGE value="Chapter 18 Half" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 Half" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
