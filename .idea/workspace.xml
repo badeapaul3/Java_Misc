@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 17 Progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/ConvertToLegacyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/DSTAdjustment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/DurationBasedLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/FlightTimeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/TimeZonesAndDaylightSavings.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 17 Done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/BasicResources_no_NO.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/LocalesEverywhere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/LocatingBundles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/MyResources_fr_CA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_1_Localization/UsingResourceBundles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Durations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A17_1_DateTime/Durations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +42,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "badeapaul3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;badeapaul3&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/badeapaul3/Java_Misc",
-    "accountId": "f74753fd-9740-48af-953b-03d17136afa1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/badeapaul3/Java_Misc&quot;,
+    &quot;accountId&quot;: &quot;f74753fd-9740-48af-953b-03d17136afa1&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="SKIP_INSPECTION" />
   </component>
@@ -140,7 +145,9 @@
     "Application.LocalClient2.executor": "Run",
     "Application.LocalClient3.executor": "Run",
     "Application.LocalTypesClient.executor": "Run",
+    "Application.LocalesEverywhere.executor": "Run",
     "Application.LocalsOnly.executor": "Run",
+    "Application.LocatingBundles.executor": "Run",
     "Application.MachineClient.executor": "Run",
     "Application.MapTests.executor": "Run",
     "Application.MembersOnly.executor": "Run",
@@ -208,6 +215,7 @@
     "Application.TryWithoutARM.executor": "Run",
     "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
+    "Application.UsingResourceBundles.executor": "Run",
     "Application.UsingTemporals.executor": "Run",
     "Application.UsingVersionNumberComparator.executor": "Run",
     "Application.Utility.executor": "Run",
@@ -468,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734979802057</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Chapter 17 Done">
+      <option name="closed" value="true" />
+      <created>1735037997109</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1735037997109</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +537,8 @@
     <MESSAGE value="Chapter 16 Progress" />
     <MESSAGE value="Chapter 16 Done" />
     <MESSAGE value="Chapter 17 Progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 17 Progress" />
+    <MESSAGE value="Chapter 17 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 17 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
