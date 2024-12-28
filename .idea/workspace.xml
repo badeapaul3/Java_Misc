@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 18 Half">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CompactNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CustomDecimalFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/FormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/Rounding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceBundle2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceFormatUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoicePatternUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CompoundMessageFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingValuesWithPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/StockInfoBundle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,13 @@
         <option value="Record" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -83,6 +92,8 @@
     "Application.CDAdmin.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
     "Application.CharacterSets.executor": "Run",
+    "Application.ChoiceFormatUsage.executor": "Run",
+    "Application.ChoicePatternUsage.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
     "Application.Client3.executor": "Run",
@@ -92,6 +103,7 @@
     "Application.CollectorsFlatMapping.executor": "Run",
     "Application.CompactNumberTest.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
+    "Application.CompoundMessageFormatting.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
     "Application.CurryingFn.executor": "Run",
