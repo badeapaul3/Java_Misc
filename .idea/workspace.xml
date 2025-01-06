@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 18 Half">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceBundle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceBundle2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoiceFormatUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ChoicePatternUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/CompoundMessageFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingValuesWithPatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/StockInfoBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/BinaryValuesIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/ChangePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/CharEncodingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/ConsoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/CopyCharacterFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_1_JavaIO/WritingReadingTextFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/ObjectSerializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/SerialClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/SerialClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/Unicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/Unicycle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingValuesWithPatterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A18_2_FormattingParsing/ParsingValuesWithPatterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +97,10 @@
     "Application.Average9.executor": "Run",
     "Application.BiNode.executor": "Run",
     "Application.BiPredicateClient.executor": "Run",
+    "Application.BinaryValuesIO.executor": "Run",
     "Application.CDAdmin.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
+    "Application.CharEncodingDemo.executor": "Run",
     "Application.CharacterSets.executor": "Run",
     "Application.ChoiceFormatUsage.executor": "Run",
     "Application.ChoicePatternUsage.executor": "Run",
@@ -104,6 +114,7 @@
     "Application.CompactNumberTest.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.CompoundMessageFormatting.executor": "Run",
+    "Application.ConsoleTest.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
     "Application.CurryingFn.executor": "Run",
@@ -168,12 +179,14 @@
     "Application.ObjectConstruction.executor": "Run",
     "Application.ObjectInitialization.executor": "Run",
     "Application.ObjectMethods.executor": "Run",
+    "Application.ObjectSerializationDemo.executor": "Run",
     "Application.OptionalUsage.executor": "Run",
     "Application.OrderOfOperations.executor": "Run",
     "Application.OrderOfOperationsWithPeek.executor": "Run",
     "Application.Others.executor": "Run",
     "Application.OuterInstances.executor": "Run",
     "Application.ParsingTest.executor": "Run",
+    "Application.ParsingValuesWithPatterns.executor": "Run",
     "Application.PassingArrays.executor": "Run",
     "Application.PeriodBasedLoop.executor": "Run",
     "Application.Periods.executor": "Run",
@@ -189,6 +202,8 @@
     "Application.SeasonsIII.executor": "Run",
     "Application.SeasonsIV.executor": "Run",
     "Application.SeasonsVI.executor": "Run",
+    "Application.SerialClient.executor": "Run",
+    "Application.SerialClient2.executor": "Run",
     "Application.SetNavigation.executor": "Run",
     "Application.SetTests.executor": "Run",
     "Application.Shopper.executor": "Run",
@@ -236,6 +251,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-23",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/hatzp/Desktop/Programming/OCP17/Java_Misc",
     "node.js.detected.package.eslint": "true",
@@ -254,6 +270,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="devguideocp.Part1_C1to5" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -277,6 +300,9 @@
       <workItem from="1733040461502" duration="15664000" />
       <workItem from="1733595764405" duration="68571000" />
       <workItem from="1734771246507" duration="2009000" />
+      <workItem from="1736012051965" duration="1985000" />
+      <workItem from="1736070708113" duration="4284000" />
+      <workItem from="1736104968912" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -502,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735211880862</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Chapter 18 Half">
+      <option name="closed" value="true" />
+      <created>1735473121977</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1735473121977</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
