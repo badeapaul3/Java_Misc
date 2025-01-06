@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 20 progress">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/SerialInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_2_Serialization/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to20/A20_3_SerializationVersioning/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 20 done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +103,7 @@
     "Application.CurryingFn.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
     "Application.DataUser.executor": "Run",
+    "Application.DeSerializer.executor": "Run",
     "Application.DequeOperations.executor": "Run",
     "Application.Durations.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
@@ -194,6 +189,7 @@
     "Application.SerialClient.executor": "Run",
     "Application.SerialClient2.executor": "Run",
     "Application.SerialInheritance.executor": "Run",
+    "Application.Serializer.executor": "Run",
     "Application.SetNavigation.executor": "Run",
     "Application.SetTests.executor": "Run",
     "Application.Shopper.executor": "Run",
@@ -312,7 +308,7 @@
       <workItem from="1734771246507" duration="2009000" />
       <workItem from="1736012051965" duration="1985000" />
       <workItem from="1736070708113" duration="4284000" />
-      <workItem from="1736104968912" duration="4848000" />
+      <workItem from="1736104968912" duration="5457000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -554,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736156126507</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Chapter 20 done">
+      <option name="closed" value="true" />
+      <created>1736157964394</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1736157964394</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 1 &amp; 2 Examples" />
     <MESSAGE value="Chapter 3 Progress" />
     <MESSAGE value="Chapter 3 Complete" />
     <MESSAGE value="Chapter 4 Complete" />
@@ -609,7 +612,8 @@
     <MESSAGE value="Chapter 17 Done" />
     <MESSAGE value="Chapter 18 Half" />
     <MESSAGE value="Chapter 20 progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 progress" />
+    <MESSAGE value="Chapter 20 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
