@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 20 done" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 20 done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/Moving6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTestAndCopies4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/QueryingPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/ReadingWritingTextFiles7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/UsingStreamsAndPath5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,13 +182,20 @@
     "Application.ParsingTest.executor": "Run",
     "Application.ParsingValuesWithPatterns.executor": "Run",
     "Application.PassingArrays.executor": "Run",
+    "Application.PathTest.executor": "Run",
+    "Application.PathTest2.executor": "Run",
+    "Application.PathTest3.executor": "Run",
+    "Application.PathTest4.executor": "Run",
+    "Application.PathTest5.executor": "Run",
     "Application.PeriodBasedLoop.executor": "Run",
     "Application.Periods.executor": "Run",
     "Application.Point2D.executor": "Run",
     "Application.Point3D.executor": "Run",
     "Application.PolymorphRefs.executor": "Run",
     "Application.PredicateTests.executor": "Run",
+    "Application.QueryingPaths.executor": "Run",
     "Application.ReadingCharsFromString.executor": "Run",
+    "Application.ReadingWritingTextFiles7.executor": "Run",
     "Application.RefPassing.executor": "Run",
     "Application.ReferenceConversion.executor": "Run",
     "Application.Rounding.executor": "Run",
@@ -259,11 +276,11 @@
   </component>
   <component name="RunManager">
     <configuration name="DeSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C16to20.A20_3_SerializationVersioning.DeSerializer" />
+      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C16to21.A20_3_SerializationVersioning.DeSerializer" />
       <module name="Java_Misc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C16to20.A20_3_SerializationVersioning.*" />
+          <option name="PATTERN" value="devguideocp.Part2_C16to21.A20_3_SerializationVersioning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,7 +325,7 @@
       <workItem from="1734771246507" duration="2009000" />
       <workItem from="1736012051965" duration="1985000" />
       <workItem from="1736070708113" duration="4284000" />
-      <workItem from="1736104968912" duration="5457000" />
+      <workItem from="1736104968912" duration="29937000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -558,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736157964394</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Chapter 20 done">
+      <option name="closed" value="true" />
+      <created>1736169225677</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1736169225677</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
