@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 20 done">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/Moving6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/PathTestAndCopies4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/QueryingPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/ReadingWritingTextFiles7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/UsingStreamsAndPath5.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 21 InProg">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/BulkFileAttributes10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/CreatingDirectoryEntries11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/IndividualFileAttributes9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/MoreStreams14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/ReadingWritingBytes8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/StreamDirectoryEntries12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/WalkTheWalk13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +90,7 @@
     "Application.BiNode.executor": "Run",
     "Application.BiPredicateClient.executor": "Run",
     "Application.BinaryValuesIO.executor": "Run",
+    "Application.BulkFileAttributes10.executor": "Run",
     "Application.CDAdmin.executor": "Run",
     "Application.ChainingConstructors.executor": "Run",
     "Application.CharEncodingDemo.executor": "Run",
@@ -110,6 +110,7 @@
     "Application.ConsoleTest.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
+    "Application.CreatingDirectoryEntries11.executor": "Run",
     "Application.CurryingFn.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
     "Application.DataUser.executor": "Run",
@@ -137,6 +138,7 @@
     "Application.HiddenAndInheritedAccess.executor": "Run",
     "Application.Identification.executor": "Run",
     "Application.IdentityMatrixTest.executor": "Run",
+    "Application.IndividualFileAttributes9.executor": "Run",
     "Application.Initialize.executor": "Run",
     "Application.InstanceInitBlock.executor": "Run",
     "Application.InstanceInitializersII.executor": "Run",
@@ -166,6 +168,7 @@
     "Application.MembersOnly.executor": "Run",
     "Application.MethodReferences.executor": "Run",
     "Application.MorePreciseRethrow.executor": "Run",
+    "Application.MoreStreams14.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
     "Application.MyBiLinkedList.executor": "Run",
     "Application.Name.executor": "Run",
@@ -214,6 +217,7 @@
     "Application.StackUser.executor": "Run",
     "Application.StaticTest.executor": "Run",
     "Application.StreamBenchmarks.executor": "Run",
+    "Application.StreamDirectoryEntries12.executor": "Run",
     "Application.StreamOps.executor": "Run",
     "Application.StreamPipeLine.executor": "Run",
     "Application.StreamTest.executor": "Run",
@@ -244,6 +248,7 @@
     "Application.TwoArityFn.executor": "Run",
     "Application.TypeErasure.executor": "Run",
     "Application.UsingResourceBundles.executor": "Run",
+    "Application.UsingStreamsAndPath5.executor": "Run",
     "Application.UsingTemporals.executor": "Run",
     "Application.UsingVersionNumberComparator.executor": "Run",
     "Application.Utility.executor": "Run",
@@ -270,6 +275,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hatzp\Desktop\Programming\OCP17\Java_Misc" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="devguideocp.Part1_C1to5" />
     </key>
@@ -325,7 +333,7 @@
       <workItem from="1734771246507" duration="2009000" />
       <workItem from="1736012051965" duration="1985000" />
       <workItem from="1736070708113" duration="4284000" />
-      <workItem from="1736104968912" duration="29937000" />
+      <workItem from="1736104968912" duration="39966000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -583,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736169225677</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Chapter 21 InProg">
+      <option name="closed" value="true" />
+      <created>1736616187206</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1736616187206</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 3 Progress" />
     <MESSAGE value="Chapter 3 Complete" />
     <MESSAGE value="Chapter 4 Complete" />
     <MESSAGE value="Chapter 5 Progress" />
@@ -638,7 +653,8 @@
     <MESSAGE value="Chapter 18 Half" />
     <MESSAGE value="Chapter 20 progress" />
     <MESSAGE value="Chapter 20 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 done" />
+    <MESSAGE value="Chapter 21 InProg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 InProg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
