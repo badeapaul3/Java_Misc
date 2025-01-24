@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 21 InProg">
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/BulkFileAttributes10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/CreatingDirectoryEntries11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/IndividualFileAttributes9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/MoreStreams14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/ReadingWritingBytes8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/StreamDirectoryEntries12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part2_C16to21/A21_1_JavaIO2/WalkTheWalk13.java" afterDir="false" />
+    <list default="true" id="296a42bd-ab85-49a2-a75a-a7e9a1bb5e16" name="Changes" comment="Chapter 21 Done">
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_1_Concurrency/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_1_Concurrency/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_1_Concurrency/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_1_Concurrency/Counter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_1_Concurrency/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/AnotherClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/CounterX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/InterruptHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/MessageDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/SynchronizedMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/ThreadPriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/ThreadStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/WaitNotifyScenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_2_ConcurrencyMore/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/DeadLockDanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/Diggers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/Hole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/LivelockShipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devguideocp/Part5_C22to26/A22_3_ConcurrencyIssues/Seller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +94,7 @@
     "Application.AdvMapTests.executor": "Run",
     "Application.AnonClassClient.executor": "Run",
     "Application.AnonClient.executor": "Run",
+    "Application.AnotherClient.executor": "Run",
     "Application.Average10.executor": "Run",
     "Application.Average2.executor": "Run",
     "Application.Average3.executor": "Run",
@@ -110,12 +127,16 @@
     "Application.ConsoleTest.executor": "Run",
     "Application.ConstructorReferences.executor": "Run",
     "Application.ConsumerTests.executor": "Run",
+    "Application.Controller.executor": "Run",
     "Application.CreatingDirectoryEntries11.executor": "Run",
     "Application.CurryingFn.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
+    "Application.DamComanda.executor": "Run",
     "Application.DataUser.executor": "Run",
     "Application.DeSerializer.executor": "Run",
+    "Application.DeadLockDanger.executor": "Run",
     "Application.DequeOperations.executor": "Run",
+    "Application.Diggers.executor": "Run",
     "Application.Durations.executor": "Run",
     "Application.EnumSwitch.executor": "Run",
     "Application.ExceptionInStaticInitBlocks.executor": "Run",
@@ -145,6 +166,7 @@
     "Application.Instants.executor": "Run",
     "Application.IntegerRepresentation.executor": "Run",
     "Application.IntermedOpsTest.executor": "Run",
+    "Application.InterruptHandling.executor": "Run",
     "Application.IterationHashSetAndLinkedHashSet.executor": "Run",
     "Application.IterationOverCollections.executor": "Run",
     "Application.JavaParty.executor": "Run",
@@ -155,6 +177,7 @@
     "Application.Line.executor": "Run",
     "Application.ListClient.executor": "Run",
     "Application.ListPool2$MyLinkedList$Node.executor": "Run",
+    "Application.LivelockShipment.executor": "Run",
     "Application.LocalClassClient.executor": "Run",
     "Application.LocalClient1.executor": "Run",
     "Application.LocalClient2.executor": "Run",
@@ -226,6 +249,7 @@
     "Application.StringConstruction.executor": "Run",
     "Application.SupplierClient.executor": "Run",
     "Application.SwitchingOnAString.executor": "Run",
+    "Application.SynchronizedMethodDemo.executor": "Run",
     "Application.TakeAGuess.executor": "Run",
     "Application.TaskExecutor.executor": "Run",
     "Application.TaskExecutor2.executor": "Run",
@@ -243,6 +267,9 @@
     "Application.TestVersionNumber.executor": "Run",
     "Application.Testing.executor": "Run",
     "Application.TheCollectionsClass.executor": "Run",
+    "Application.ThreadPriorityTest.executor": "Run",
+    "Application.ThreadStates.executor": "Run",
+    "Application.ThreadTest.executor": "Run",
     "Application.TimeZonesAndDaylightSavings.executor": "Run",
     "Application.TryWithoutARM.executor": "Run",
     "Application.TwoArityFn.executor": "Run",
@@ -253,6 +280,7 @@
     "Application.UsingVersionNumberComparator.executor": "Run",
     "Application.Utility.executor": "Run",
     "Application.ValidTemporalUnitsAndFields.executor": "Run",
+    "Application.WaitNotifyScenario.executor": "Run",
     "Application.Warehouse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -281,26 +309,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="devguideocp.Part1_C1to5" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="DeSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devguideocp.Part2_C16to21.A20_3_SerializationVersioning.DeSerializer" />
-      <module name="Java_Misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devguideocp.Part2_C16to21.A20_3_SerializationVersioning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DeSerializer" />
-      </list>
-    </recent_temporary>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="devguideocp.Part5_C22to26.A22_2_ConcurrencyMore" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -333,7 +344,9 @@
       <workItem from="1734771246507" duration="2009000" />
       <workItem from="1736012051965" duration="1985000" />
       <workItem from="1736070708113" duration="4284000" />
-      <workItem from="1736104968912" duration="39966000" />
+      <workItem from="1736104968912" duration="40691000" />
+      <workItem from="1737011937619" duration="17805000" />
+      <workItem from="1737563935416" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -599,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736616187206</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Chapter 21 Done">
+      <option name="closed" value="true" />
+      <created>1736793343866</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736793343866</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 3 Complete" />
     <MESSAGE value="Chapter 4 Complete" />
     <MESSAGE value="Chapter 5 Progress" />
     <MESSAGE value="Chapter 5 Done" />
@@ -654,7 +674,8 @@
     <MESSAGE value="Chapter 20 progress" />
     <MESSAGE value="Chapter 20 done" />
     <MESSAGE value="Chapter 21 InProg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 InProg" />
+    <MESSAGE value="Chapter 21 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
