@@ -17,21 +17,21 @@ public class TestCounters {                                               // (3)
         runIncrementor(vc);
         System.out.printf("Volatile Counter: %22d%n", vc.getValue());
 
-//        SynchronizedCounter sc = new SynchronizedCounter();                   // (7)
-//        runIncrementor(sc);
-//        System.out.printf("Synchronized Counter: %18d%n", sc.getValue());
-//
+        SynchronizedCounter sc = new SynchronizedCounter();                   // (7)
+        runIncrementor(sc);
+        System.out.printf("Synchronized Counter: %18d%n", sc.getValue());
+
         AtomicCounter ac = new AtomicCounter();                               // (8)
         runIncrementor(ac);
         System.out.printf("Atomic Counter: %24d%n", ac.getValue());
-//
-//        ReentrantLockCounter rlc = new ReentrantLockCounter();                // (9)
-//        runIncrementor(rlc);
-//        System.out.printf("Reentrant Lock Counter: %16d%n", rlc.getValue());
-//
-//        ReentrantRWLockCounter rwlc = new ReentrantRWLockCounter();           // (10)
-//        runIncrementor(rwlc);
-//        System.out.printf("Reentrant Read-Write Lock Counter: %d%n", rwlc.getValue());
+
+        ReentrantLockCounter rlc = new ReentrantLockCounter();                // (9)
+        runIncrementor(rlc);
+        System.out.printf("Reentrant Lock Counter: %16d%n", rlc.getValue());
+
+        ReentrantRWLockCounter rwlc = new ReentrantRWLockCounter();           // (10)
+        runIncrementor(rwlc);
+        System.out.printf("Reentrant Read-Write Lock Counter: %d%n", rwlc.getValue());
     }
 
     public static void runIncrementor(ICounter counter) {                   // (11)
